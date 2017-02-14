@@ -1,3 +1,4 @@
+
 var userInputSentence = prompt("Enter a sentence");
 var firstAndLast = function(words) {
 return (words.charAt(0) + words.charAt(words.length - 1)).toUpperCase();
@@ -26,4 +27,12 @@ var finalThing = fourth();
 var reverse = function() {
 	return finalThing.split("").reverse().join("");
 }
-alert(reverse());
+//alert(reverse());
+
+jQuery("#Neo").click(function() {
+  alert(userInputSentence);
+});
+
+jQuery("#Killary").click(function() {
+  alert(reverse());
+});
